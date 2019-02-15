@@ -33,7 +33,7 @@ from math import sqrt
 s = 0
 l = []
 d = []
-dico = {}
+
 go = True
 i = 1
 
