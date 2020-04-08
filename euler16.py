@@ -1,9 +1,10 @@
 # Euler 16
 # 2 ^ 1000
+# puis somme des chiffres
 # Multiplication 
 
 def n_puissance_p(n,p):
-""" n^p  implémentation de la multiplication avec gestion de la retenue"""
+    """ n^p  implémentation de la multiplication avec gestion de la retenue """
     lx=[1]
     lx2=[]
     retenue =0
@@ -27,7 +28,15 @@ def n_puissance_p(n,p):
     return lx
 
 print ((n_puissance_p(2,1000)))  
-print (sum(n_puissance_p(2,1000)))         
+print (sum(n_puissance_p(2,1000)))       
+
+# implementation triviale avec python ;-) !
+
+y=2**1000
+l=[int(i) for i in str(y)]
+print (l)
+print (sum(l))
+
 
 
     
